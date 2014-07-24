@@ -1,0 +1,56 @@
+﻿Build started 17/07/2014 4:53:36 PM.
+     1>Project "C:\Users\Stephane\Documents\ecole\Session 4\Projet\VS2010\ProjetS4\ProjetS4.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\ProjetS4.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Debug\ProjetS4.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug/ProjetS4.pch" /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt grue.cpp mockgrue.cpp ProjetS4.cpp ProjetS4Dlg.cpp
+         ProjetS4Dlg.cpp
+         ProjetS4.cpp
+         mockgrue.cpp
+         grue.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0c0c" /nologo /fo".\Debug\ProjetS4.res" ProjetS4.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\ProjetS4.exe.embed.manifest.res" .\Debug\ProjetS4_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/ProjetS4.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\ProjetS4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/ProjetS4.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ProjetS4.lib" /MACHINE:X86 .\Debug\ProjetS4.res
+         .\Debug\ProjetS4.exe.embed.manifest.res
+         .\Debug/grue.obj
+         .\Debug/mockgrue.obj
+         .\Debug/ProjetS4.obj
+         .\Debug/ProjetS4Dlg.obj
+         .\Debug/StdAfx.obj
+         crane.lib
+         matrix.lib
+         SRanger_HL.lib
+       Manifest:
+         Deleting file ".\Debug\ProjetS4.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\ProjetS4.exe.embed.manifest" /manifest .\Debug\ProjetS4.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\ProjetS4.exe.embed.manifest.res" .\Debug\ProjetS4_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/ProjetS4.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\ProjetS4.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/ProjetS4.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\ProjetS4.lib" /MACHINE:X86 .\Debug\ProjetS4.res
+         .\Debug\ProjetS4.exe.embed.manifest.res
+         .\Debug/grue.obj
+         .\Debug/mockgrue.obj
+         .\Debug/ProjetS4.obj
+         .\Debug/ProjetS4Dlg.obj
+         .\Debug/StdAfx.obj
+         crane.lib
+         matrix.lib
+         SRanger_HL.lib
+         ProjetS4.vcxproj -> C:\Users\Stephane\Documents\ecole\Session 4\Projet\VS2010\ProjetS4\.\Debug\ProjetS4.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/ProjetS4.bsc" .\Debug\grue.sbr .\Debug\mockgrue.sbr .\Debug\ProjetS4.sbr .\Debug\ProjetS4Dlg.sbr .\Debug\StdAfx.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\ProjetS4.unsuccessfulbuild".
+         Touching ".\Debug\ProjetS4.lastbuildstate".
+     1>Done Building Project "C:\Users\Stephane\Documents\ecole\Session 4\Projet\VS2010\ProjetS4\ProjetS4.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:49.77

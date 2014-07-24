@@ -1,0 +1,298 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ProjetS4"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ProjetS4 Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2006",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_PROJETS4_DIALOG DIALOGEX 0, 0, 535, 414
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ProjetS4"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Charger Etiquette",IDC_STATIC,277,227,62,10
+    EDITTEXT        IDC_FILENAME,337,226,102,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir...",IDC_PARCOURIR,445,225,39,11
+    PUSHBUTTON      "Afficher",IDC_AFFICHER,487,225,41,11
+    DEFPUSHBUTTON   "Terminer",IDOK,478,393,50,14
+    CONTROL         "",IDC_IMAGE,"Static",SS_BLACKFRAME,279,23,239,190
+    PUSHBUTTON      "Sauvegarde",IDC_SAUVEGARDE,405,258,54,14
+    LTEXT           "Changer le gris:",IDC_STATIC,277,242,52,10,NOT WS_VISIBLE
+    EDITTEXT        IDC_GRIS,333,241,40,13,ES_AUTOHSCROLL | NOT WS_VISIBLE
+    PUSHBUTTON      "Change gris",IDC_PROCEDE,378,240,53,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Demande image",IDC_GETPICT,465,257,54,14
+    GROUPBOX        "Etiquette",IDC_STATIC,272,7,256,272
+    GROUPBOX        "Chariot",IDC_STATIC,7,7,121,69
+    LTEXT           "Position Initiale :",IDC_STATIC,21,94,52,8
+    LTEXT           "X :",IDC_STATIC,41,106,10,8
+    LTEXT           "Y :",IDC_STATIC,39,119,10,8
+    LTEXT           "Z :",IDC_STATIC,39,130,10,8
+    LTEXT           "Invalid",IDC_STATIC,51,106,22,8
+    LTEXT           "Invalid",IDC_STATIC,51,119,22,8
+    LTEXT           "Invalid",IDC_STATIC,51,130,22,8
+    GROUPBOX        "Masse",IDC_STATIC,141,7,121,69
+    LTEXT           "Position :",IDC_STATIC,153,20,30,8
+    LTEXT           "X :",IDC_STATIC,161,33,10,8
+    LTEXT           "Y :",IDC_STATIC,160,46,10,8
+    LTEXT           "Z :",IDC_STATIC,160,55,10,8
+    LTEXT           "Vitesse :",IDC_STATIC,204,20,28,8
+    LTEXT           "Invalid",IDC_STATIC,172,33,22,8
+    LTEXT           "Invalid",IDC_STATIC,172,46,22,8
+    LTEXT           "Invalid",IDC_STATIC,172,57,22,8
+    LTEXT           "alpha :",IDC_STATIC,433,335,22,8
+    LTEXT           "Y :",IDC_STATIC,437,345,10,8
+    LTEXT           "Z :",IDC_STATIC,210,55,10,8
+    LTEXT           "Invalid",IDC_STATIC,460,334,22,8
+    LTEXT           "Invalid",IDC_STATIC,460,345,22,8
+    LTEXT           "Invalid",IDC_STATIC,222,57,22,8
+    GROUPBOX        "Trajectoire",IDC_STATIC,7,79,264,267
+    LTEXT           "Charger Trajectoire",IDC_STATIC,7,149,62,10
+    EDITTEXT        IDC_FILENAME2,71,148,105,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir...",IDC_PARCOURIR2,179,150,39,11
+    GROUPBOX        "Etat des capteurs",IDC_STATIC,426,284,102,106
+    PUSHBUTTON      "Afficher",IDC_AFFICHER2,220,150,41,11
+    LTEXT           "Position :",IDC_STATIC,20,23,30,8
+    LTEXT           "X :",IDC_STATIC,28,36,10,8
+    LTEXT           "Y :",IDC_STATIC,27,49,10,8
+    LTEXT           "Z :",IDC_STATIC,26,59,10,8
+    LTEXT           "Vitesse :",IDC_STATIC,71,23,28,8
+    LTEXT           "Invalid",IDC_STATIC,39,36,22,8
+    LTEXT           "Invalid",IDC_STATIC,39,49,22,8
+    LTEXT           "Invalid",IDC_STATIC,39,60,22,8
+    LTEXT           "X :",IDC_STATIC,78,36,10,8
+    LTEXT           "Y :",IDC_STATIC,77,49,10,8
+    LTEXT           "Z :",IDC_STATIC,77,57,10,8
+    LTEXT           "Invalid",IDC_STATIC,89,36,22,8
+    LTEXT           "Invalid",IDC_STATIC,89,49,22,8
+    LTEXT           "Invalid",IDC_STATIC,89,60,22,8
+    LTEXT           "Position Capture:",IDC_STATIC,108,97,54,8
+    LTEXT           "X :",IDC_STATIC,127,109,10,8
+    LTEXT           "Y :",IDC_STATIC,126,122,10,8
+    LTEXT           "Z :",IDC_STATIC,126,133,10,8
+    LTEXT           "Invalid",IDC_STATIC,138,109,22,8
+    LTEXT           "Invalid",IDC_STATIC,138,122,22,8
+    LTEXT           "Invalid",IDC_STATIC,138,133,22,8
+    LTEXT           "Position Depot :",IDC_STATIC,192,97,51,8
+    LTEXT           "X :",IDC_STATIC,211,109,10,8
+    LTEXT           "Y :",IDC_STATIC,210,122,10,8
+    LTEXT           "Z :",IDC_STATIC,210,133,10,8
+    LTEXT           "Invalid",IDC_STATIC,222,109,22,8
+    LTEXT           "Invalid",IDC_STATIC,222,122,22,8
+    LTEXT           "Invalid",IDC_STATIC,222,133,22,8
+    GROUPBOX        "Controle de la grue",IDC_STATIC,7,356,262,51
+    PUSHBUTTON      "Remise a Zero",IDC_BUTTON1,176,367,72,14
+    LTEXT           "X :",IDC_STATIC,437,299,10,8
+    LTEXT           "Y :",IDC_STATIC,435,312,10,8
+    LTEXT           "r : ",IDC_STATIC,435,321,9,8
+    LTEXT           "Invalid",IDC_STATIC,447,299,22,8
+    LTEXT           "Invalid",IDC_STATIC,447,312,22,8
+    LTEXT           "Invalid",IDC_STATIC,447,323,22,8
+    CONTROL         "",IDC_IMAGE2,"Static",SS_BLACKFRAME,17,169,239,167
+    LTEXT           "X :",IDC_STATIC,209,33,10,8
+    LTEXT           "Y :",IDC_STATIC,208,46,10,8
+    LTEXT           "Invalid",IDC_STATIC,220,33,22,8
+    LTEXT           "Invalid",IDC_STATIC,220,46,22,8
+    LTEXT           "Charger Image",IDC_STATIC,272,397,62,10
+    EDITTEXT        IDC_FILENAME3,330,395,86,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Parcourir...",IDC_PARCOURIR3,275,378,39,11
+    PUSHBUTTON      "Afficher",IDC_AFFICHER3,273,362,41,11
+    GROUPBOX        "Image a Detecter",IDC_STATIC,271,283,154,124
+    CONTROL         "",IDC_IMAGE3,"Static",SS_BLACKFRAME,320,294,102,94
+    PUSHBUTTON      "Demarrer",IDC_BUTTON3,7,366,72,14
+    PUSHBUTTON      "Debruitage",IDC_BUTTON4,279,257,50,14
+    PUSHBUTTON      "Placer Marqueur",IDC_BUTTON5,338,258,57,14
+    PUSHBUTTON      "Afficher Etat",IDC_BUTTON6,478,373,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "ProjetS4 MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ProjetS4"
+            VALUE "LegalCopyright", "Copyright (C) 2006"
+            VALUE "OriginalFilename", "ProjetS4.EXE"
+            VALUE "ProductName", "ProjetS4 Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PROJETS4_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 528
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 407
+        HORZGUIDE, 148
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About ProjetS4..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRC)
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_CANADIAN
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ProjetS4.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ProjetS4.ico"
+#endif    // French (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ProjetS4.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
